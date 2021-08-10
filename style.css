@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(39, 39, 77);
+    text-align: center;
+    
+}
+h1{
+    padding-top: 20px;
+    color: white;
+    text-shadow:2px 0 rgb(236, 22, 111);
+}
+.set{
+    padding-top: 60px;
+}
+
+button {
+    text-shadow: 3px 0 white;
+    width:150px;
+    height: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:cursive;
+    color:rgb(236, 22, 111);
+    border: 7px solid rgb(71, 79, 114);
+    border-radius: 5px;
+    padding: 20px 12px 0 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+    color: white;
+    padding-top:150px;
+}
+.w {
+    background-image: url(images/tom1.png);
+}
+
+.a {
+    background-image: url(images/tom2.png);
+}
+.s {
+    background-image: url(images/tom3.png);
+}
+.d {
+    background-image: url(images/tom4.png);
+}
+.j {
+    background-image: url(images/snare.png);
+}
+.k {
+    background-image: url(images/crash.png);
+}
+.l {
+    background-image: url(images/kick.png);
+}
+.pressed {
+    box-shadow: 0 4px 4px 4px grey;
+    opacity: 0.5;
+}
